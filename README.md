@@ -1,7 +1,7 @@
 # config-repo
 
-Configuration files served by [`config-server`](https://github.com/ar-ecommerce-platform/config-server)
-to the rest of the [ar-ecommerce-platform](https://github.com/ar-ecommerce-platform).
+Configuration files served by [`config-server`](https://github.com/ar-ecommerce-backend/config-server)
+to the rest of the [ar-ecommerce-backend](https://github.com/ar-ecommerce-backend).
 
 ## Layout
 
@@ -47,11 +47,11 @@ config, not a single point of failure.
 
 No secrets live in this repo. Placeholders like `${AUTH_DB_USERNAME}` are resolved from the
 environment at runtime. See the platform secrets model in
-[infra/RUNBOOK.md](https://github.com/ar-ecommerce-platform/infra/blob/main/RUNBOOK.md).
+[infra/RUNBOOK.md](https://github.com/ar-ecommerce-backend/infra/blob/main/RUNBOOK.md).
 
 ## Related
 
-[infra](https://github.com/ar-ecommerce-platform/infra) ·
-[config-server](https://github.com/ar-ecommerce-platform/config-server) ·
-[discovery-server](https://github.com/ar-ecommerce-platform/discovery-server) ·
-[api-gateway](https://github.com/ar-ecommerce-platform/api-gateway)
+[infra](https://github.com/ar-ecommerce-backend/infra) ·
+[config-server](https://github.com/ar-ecommerce-backend/config-server) ·
+[discovery-server](https://github.com/ar-ecommerce-backend/discovery-server) ·
+[api-gateway](https://github.com/ar-ecommerce-backend/api-gateway)
